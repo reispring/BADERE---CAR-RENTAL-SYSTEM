@@ -58,7 +58,7 @@ Partial Class Form1
         'lblID
         '
         Me.lblID.AutoSize = True
-        Me.lblID.Location = New System.Drawing.Point(135, 118)
+        Me.lblID.Location = New System.Drawing.Point(82, 123)
         Me.lblID.Name = "lblID"
         Me.lblID.Size = New System.Drawing.Size(21, 13)
         Me.lblID.TabIndex = 2
@@ -66,15 +66,15 @@ Partial Class Form1
         '
         'txtID
         '
-        Me.txtID.Location = New System.Drawing.Point(162, 111)
+        Me.txtID.Location = New System.Drawing.Point(109, 116)
         Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(244, 20)
+        Me.txtID.Size = New System.Drawing.Size(289, 20)
         Me.txtID.TabIndex = 3
         '
         'lblCarModel
         '
         Me.lblCarModel.AutoSize = True
-        Me.lblCarModel.Location = New System.Drawing.Point(135, 144)
+        Me.lblCarModel.Location = New System.Drawing.Point(82, 149)
         Me.lblCarModel.Name = "lblCarModel"
         Me.lblCarModel.Size = New System.Drawing.Size(58, 13)
         Me.lblCarModel.TabIndex = 4
@@ -82,15 +82,15 @@ Partial Class Form1
         '
         'txtCarModel
         '
-        Me.txtCarModel.Location = New System.Drawing.Point(199, 137)
+        Me.txtCarModel.Location = New System.Drawing.Point(146, 142)
         Me.txtCarModel.Name = "txtCarModel"
-        Me.txtCarModel.Size = New System.Drawing.Size(207, 20)
+        Me.txtCarModel.Size = New System.Drawing.Size(252, 20)
         Me.txtCarModel.TabIndex = 5
         '
         'lblRenter
         '
         Me.lblRenter.AutoSize = True
-        Me.lblRenter.Location = New System.Drawing.Point(135, 173)
+        Me.lblRenter.Location = New System.Drawing.Point(82, 178)
         Me.lblRenter.Name = "lblRenter"
         Me.lblRenter.Size = New System.Drawing.Size(73, 13)
         Me.lblRenter.TabIndex = 6
@@ -98,15 +98,15 @@ Partial Class Form1
         '
         'txtRenter
         '
-        Me.txtRenter.Location = New System.Drawing.Point(214, 166)
+        Me.txtRenter.Location = New System.Drawing.Point(161, 171)
         Me.txtRenter.Name = "txtRenter"
-        Me.txtRenter.Size = New System.Drawing.Size(192, 20)
+        Me.txtRenter.Size = New System.Drawing.Size(237, 20)
         Me.txtRenter.TabIndex = 7
         '
         'lblStart
         '
         Me.lblStart.AutoSize = True
-        Me.lblStart.Location = New System.Drawing.Point(135, 204)
+        Me.lblStart.Location = New System.Drawing.Point(82, 209)
         Me.lblStart.Name = "lblStart"
         Me.lblStart.Size = New System.Drawing.Size(58, 13)
         Me.lblStart.TabIndex = 8
@@ -114,15 +114,15 @@ Partial Class Form1
         '
         'dtpStart
         '
-        Me.dtpStart.Location = New System.Drawing.Point(214, 198)
+        Me.dtpStart.Location = New System.Drawing.Point(161, 203)
         Me.dtpStart.Name = "dtpStart"
-        Me.dtpStart.Size = New System.Drawing.Size(192, 20)
+        Me.dtpStart.Size = New System.Drawing.Size(237, 20)
         Me.dtpStart.TabIndex = 9
         '
         'lblEnd
         '
         Me.lblEnd.AutoSize = True
-        Me.lblEnd.Location = New System.Drawing.Point(135, 234)
+        Me.lblEnd.Location = New System.Drawing.Point(82, 239)
         Me.lblEnd.Name = "lblEnd"
         Me.lblEnd.Size = New System.Drawing.Size(55, 13)
         Me.lblEnd.TabIndex = 10
@@ -130,14 +130,14 @@ Partial Class Form1
         '
         'dtpEnd
         '
-        Me.dtpEnd.Location = New System.Drawing.Point(214, 228)
+        Me.dtpEnd.Location = New System.Drawing.Point(161, 233)
         Me.dtpEnd.Name = "dtpEnd"
-        Me.dtpEnd.Size = New System.Drawing.Size(192, 20)
+        Me.dtpEnd.Size = New System.Drawing.Size(237, 20)
         Me.dtpEnd.TabIndex = 11
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(116, 263)
+        Me.btnAdd.Location = New System.Drawing.Point(80, 268)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(75, 23)
         Me.btnAdd.TabIndex = 12
@@ -146,7 +146,7 @@ Partial Class Form1
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(197, 263)
+        Me.btnUpdate.Location = New System.Drawing.Point(161, 268)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
         Me.btnUpdate.TabIndex = 13
@@ -155,7 +155,7 @@ Partial Class Form1
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(278, 263)
+        Me.btnDelete.Location = New System.Drawing.Point(242, 268)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(75, 23)
         Me.btnDelete.TabIndex = 14
@@ -164,7 +164,7 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(359, 263)
+        Me.btnClear.Location = New System.Drawing.Point(323, 268)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 15
@@ -174,7 +174,7 @@ Partial Class Form1
         'lblSearch
         '
         Me.lblSearch.AutoSize = True
-        Me.lblSearch.Location = New System.Drawing.Point(113, 309)
+        Me.lblSearch.Location = New System.Drawing.Point(77, 314)
         Me.lblSearch.Name = "lblSearch"
         Me.lblSearch.Size = New System.Drawing.Size(44, 13)
         Me.lblSearch.TabIndex = 16
@@ -182,14 +182,14 @@ Partial Class Form1
         '
         'txtSearch
         '
-        Me.txtSearch.Location = New System.Drawing.Point(162, 302)
+        Me.txtSearch.Location = New System.Drawing.Point(126, 307)
         Me.txtSearch.Name = "txtSearch"
         Me.txtSearch.Size = New System.Drawing.Size(110, 20)
         Me.txtSearch.TabIndex = 17
         '
         'btnSearch
         '
-        Me.btnSearch.Location = New System.Drawing.Point(278, 299)
+        Me.btnSearch.Location = New System.Drawing.Point(242, 304)
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(75, 23)
         Me.btnSearch.TabIndex = 18
@@ -198,7 +198,7 @@ Partial Class Form1
         '
         'btnLoad
         '
-        Me.btnLoad.Location = New System.Drawing.Point(359, 300)
+        Me.btnLoad.Location = New System.Drawing.Point(323, 305)
         Me.btnLoad.Name = "btnLoad"
         Me.btnLoad.Size = New System.Drawing.Size(75, 23)
         Me.btnLoad.TabIndex = 19
@@ -209,17 +209,17 @@ Partial Class Form1
         '
         Me.dgvRentals.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvRentals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvRentals.Location = New System.Drawing.Point(12, 373)
+        Me.dgvRentals.Location = New System.Drawing.Point(12, 363)
         Me.dgvRentals.Name = "dgvRentals"
         Me.dgvRentals.ReadOnly = True
         Me.dgvRentals.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullColumnSelect
-        Me.dgvRentals.Size = New System.Drawing.Size(508, 208)
+        Me.dgvRentals.Size = New System.Drawing.Size(436, 208)
         Me.dgvRentals.TabIndex = 20
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(138, 12)
+        Me.Button1.Location = New System.Drawing.Point(102, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(268, 23)
         Me.Button1.TabIndex = 21
@@ -230,7 +230,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(532, 593)
+        Me.ClientSize = New System.Drawing.Size(460, 593)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.dgvRentals)
         Me.Controls.Add(Me.btnLoad)
