@@ -28,7 +28,7 @@ Partial Class Form1
         Me.lblCarModel = New System.Windows.Forms.Label()
         Me.txtCarModel = New System.Windows.Forms.TextBox()
         Me.lblRenter = New System.Windows.Forms.Label()
-        Me.txtRenter = New System.Windows.Forms.TextBox()
+        Me.txtRenterName = New System.Windows.Forms.TextBox()
         Me.lblStart = New System.Windows.Forms.Label()
         Me.dtpStart = New System.Windows.Forms.DateTimePicker()
         Me.lblEnd = New System.Windows.Forms.Label()
@@ -40,9 +40,9 @@ Partial Class Form1
         Me.lblSearch = New System.Windows.Forms.Label()
         Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.btnSearch = New System.Windows.Forms.Button()
-        Me.btnLoad = New System.Windows.Forms.Button()
+        Me.btnLoadAll = New System.Windows.Forms.Button()
         Me.dgvRentals = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblTitle = New System.Windows.Forms.Label()
         CType(Me.dgvRentals, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -96,12 +96,12 @@ Partial Class Form1
         Me.lblRenter.TabIndex = 6
         Me.lblRenter.Text = "Renter Name:"
         '
-        'txtRenter
+        'txtRenterName
         '
-        Me.txtRenter.Location = New System.Drawing.Point(161, 171)
-        Me.txtRenter.Name = "txtRenter"
-        Me.txtRenter.Size = New System.Drawing.Size(237, 20)
-        Me.txtRenter.TabIndex = 7
+        Me.txtRenterName.Location = New System.Drawing.Point(161, 171)
+        Me.txtRenterName.Name = "txtRenterName"
+        Me.txtRenterName.Size = New System.Drawing.Size(237, 20)
+        Me.txtRenterName.TabIndex = 7
         '
         'lblStart
         '
@@ -196,14 +196,14 @@ Partial Class Form1
         Me.btnSearch.Text = "Search"
         Me.btnSearch.UseVisualStyleBackColor = True
         '
-        'btnLoad
+        'btnLoadAll
         '
-        Me.btnLoad.Location = New System.Drawing.Point(323, 305)
-        Me.btnLoad.Name = "btnLoad"
-        Me.btnLoad.Size = New System.Drawing.Size(75, 23)
-        Me.btnLoad.TabIndex = 19
-        Me.btnLoad.Text = "Load All"
-        Me.btnLoad.UseVisualStyleBackColor = True
+        Me.btnLoadAll.Location = New System.Drawing.Point(323, 305)
+        Me.btnLoadAll.Name = "btnLoadAll"
+        Me.btnLoadAll.Size = New System.Drawing.Size(75, 23)
+        Me.btnLoadAll.TabIndex = 19
+        Me.btnLoadAll.Text = "Load All"
+        Me.btnLoadAll.UseVisualStyleBackColor = True
         '
         'dgvRentals
         '
@@ -216,24 +216,24 @@ Partial Class Form1
         Me.dgvRentals.Size = New System.Drawing.Size(436, 208)
         Me.dgvRentals.TabIndex = 20
         '
-        'Button1
+        'lblTitle
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(102, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(268, 23)
-        Me.Button1.TabIndex = 21
-        Me.Button1.Text = "CAR RENTAL SYSTEM"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.lblTitle.AutoSize = True
+        Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Location = New System.Drawing.Point(143, 23)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(168, 16)
+        Me.lblTitle.TabIndex = 22
+        Me.lblTitle.Text = "CAR RENTAL SYSTEM"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(460, 593)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.dgvRentals)
-        Me.Controls.Add(Me.btnLoad)
+        Me.Controls.Add(Me.btnLoadAll)
         Me.Controls.Add(Me.btnSearch)
         Me.Controls.Add(Me.txtSearch)
         Me.Controls.Add(Me.lblSearch)
@@ -245,7 +245,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblEnd)
         Me.Controls.Add(Me.dtpStart)
         Me.Controls.Add(Me.lblStart)
-        Me.Controls.Add(Me.txtRenter)
+        Me.Controls.Add(Me.txtRenterName)
         Me.Controls.Add(Me.lblRenter)
         Me.Controls.Add(Me.txtCarModel)
         Me.Controls.Add(Me.lblCarModel)
@@ -266,7 +266,7 @@ Partial Class Form1
     Friend WithEvents lblCarModel As Label
     Friend WithEvents txtCarModel As TextBox
     Friend WithEvents lblRenter As Label
-    Friend WithEvents txtRenter As TextBox
+    Friend WithEvents txtRenterName As TextBox
     Friend WithEvents lblStart As Label
     Friend WithEvents dtpStart As DateTimePicker
     Friend WithEvents lblEnd As Label
@@ -278,7 +278,7 @@ Partial Class Form1
     Friend WithEvents lblSearch As Label
     Friend WithEvents txtSearch As TextBox
     Friend WithEvents btnSearch As Button
-    Friend WithEvents btnLoad As Button
+    Friend WithEvents btnLoadAll As Button
     Friend WithEvents dgvRentals As DataGridView
-    Friend WithEvents Button1 As Button
+    Friend WithEvents lblTitle As Label
 End Class
