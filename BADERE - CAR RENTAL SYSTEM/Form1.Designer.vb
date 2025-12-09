@@ -36,10 +36,10 @@ Partial Class Form1
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.dgvRentals = New System.Windows.Forms.DataGridView()
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnRead = New System.Windows.Forms.Button()
         CType(Me.dgvRentals, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -146,7 +146,7 @@ Partial Class Form1
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(202, 285)
+        Me.btnUpdate.Location = New System.Drawing.Point(309, 285)
         Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(106, 28)
@@ -156,23 +156,13 @@ Partial Class Form1
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(310, 285)
+        Me.btnDelete.Location = New System.Drawing.Point(416, 285)
         Me.btnDelete.Margin = New System.Windows.Forms.Padding(4)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(106, 28)
         Me.btnDelete.TabIndex = 14
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(418, 285)
-        Me.btnClear.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(106, 28)
-        Me.btnClear.TabIndex = 15
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
         '
         'dgvRentals
         '
@@ -208,14 +198,24 @@ Partial Class Form1
         Me.PictureBox2.TabIndex = 24
         Me.PictureBox2.TabStop = False
         '
+        'btnRead
+        '
+        Me.btnRead.Location = New System.Drawing.Point(202, 285)
+        Me.btnRead.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnRead.Name = "btnRead"
+        Me.btnRead.Size = New System.Drawing.Size(106, 28)
+        Me.btnRead.TabIndex = 25
+        Me.btnRead.Text = "Read"
+        Me.btnRead.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(613, 572)
+        Me.Controls.Add(Me.btnRead)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.dgvRentals)
-        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.btnAdd)
@@ -252,8 +252,8 @@ Partial Class Form1
     Friend WithEvents btnAdd As Button
     Friend WithEvents btnUpdate As Button
     Friend WithEvents btnDelete As Button
-    Friend WithEvents btnClear As Button
     Friend WithEvents dgvRentals As DataGridView
     Friend WithEvents lblTitle As Label
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents btnRead As Button
 End Class
