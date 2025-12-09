@@ -184,7 +184,7 @@ Partial Class Form1
         Me.dgvRentals.Name = "dgvRentals"
         Me.dgvRentals.ReadOnly = True
         Me.dgvRentals.RowHeadersWidth = 51
-        Me.dgvRentals.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullColumnSelect
+        Me.dgvRentals.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvRentals.Size = New System.Drawing.Size(581, 201)
         Me.dgvRentals.TabIndex = 20
         '
