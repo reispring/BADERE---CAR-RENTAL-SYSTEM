@@ -2,7 +2,7 @@
 
 Public Class Form1
 
-    Dim conn As New MySqlConnection("server=localhost;user id=root;password=yourpassword;database=carrentals_db")
+    Dim conn As New MySqlConnection("server=localhost;user id=root;password=root;database=carrentals_db")
 
     Public Sub ConnectDB()
         Try
